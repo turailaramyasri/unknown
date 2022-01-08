@@ -1,0 +1,194 @@
+# syntax=docker/dockerfile:1
+FROM node:12-alpine
+RUN apk add --no-cache python2 g++ make
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)> cd getting-started-master
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master> cd app
+PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker build -t getting-started
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | -
+
+Build an image from a Dockerfile
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker build -t getting-started .
+[+] Building 20.1s (13/14)
+ => [internal] load build definition from Dockerfile                                                                                                     0.0s
+ => => transferring dockerfile: 214B                                                                                                                     0.0s
+ => [internal] load .dockerignore                                                                                                                        0.0s
+ => => transferring context: 2B                                                                                                                          0.0s
+ => resolve image config for docker.io/docker/dockerfile:1                                                                                               5.2s
+ => [auth] docker/dockerfile:pull token for registry-1.docker.io                                                                                         0.0s
+ => CACHED docker-image://docker.io/docker/dockerfile:1@sha256:42399d4635eddd7a9b8a24be879d2f9a930d0ed040a61324cfdf59ef1357b3b2                          0.0s
+ => [internal] load .dockerignore                                                                                                                        0.0s
+ => [internal] load build definition from Dockerfile                                                                                                     0.0s
+ => [internal] load metadata for docker.io/library/node:12-alpine                                                                                        0.0s
+ => [1/5] FROM docker.io/library/node:12-alpine                                                                                                          0.0s
+ => [internal] load build context                                                                                                                        0.0s
+ => => transferring context: 2.67kB                                                                                                                      0.0s
+ => CACHED [2/5] RUN apk add --no-cache python2 g++ make                                                            [+] Building 66.7s (15/15) FINISHED
+ => [internal] load build definition from Dockerfil  0.0s  => => transferring dockerfile: 214B                 0.0s  => [internal] load .dockerignore                    0.0s
+ => => transferring context: 2B                      0.0s  => resolve image config for docker.io/docker/docke  5.2s  => [auth] docker/dockerfile:pull to = => [internal] load build context                    0.0s
+ => [internal] load build context                    0.0s                   => [internal] load build context                    0.0s                   => => transferring context: 2.67kB                  0.0su = => [internal] load build context                    0.0s              => => transferring context: 2.67kB                  0.0su => CACHED [2/5] RUN apk add --no-cache python2 g++  0.0se => CACHED [3/5] WORKDIR /app          => [internal] load build context                    0.0s      => => transferring context: 2.67kB                  0.0su => CACHED [2/5] RUN apk add --no-cache python2 g++  0.0se => CACHED [3/5 => [internal] load build context                    0.0s     5] COPY . .                                   0.2sa  => => transferring context: 2.67kB                  0.0su => CACHED [2/5] RUN apk add --no-cache python2 g++  0.0se => CACHED [3/5] WORKDIR /app                        0.0s                      => [4/5] COPY . .                                   0.2s => [4/5] COPY . .                                   0.2sa => [5/5] RUN ya => [4/5] COPY . .                                   0.2sa => [5/5] RUN yarn install --production             58.4s  => exporting to image                               2.3s0 => => exporting layers                              2.3s         => => writing image sha256:b045f76d1041aa1c4fdb4a7  0.0s                                                      => => naming to docker.io/library/getting-started   0.0s                                                                                                            Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them          PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker run -dp 3000:3000 getting-started                                          6f31c03376f8d5818f0e2c6f4721793ece37c78608e928a26bdaa7d057b88622                                    PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker push 12345shivaleela/getting-started                                       Using default tag: latest                              The push refers to repository [docker.io/12345shivaleela/getting-started]                                     b559ffa8c17e: Layer already exists                     02fb98aabf1c: Layer already exists
+609b3cf59a5e: Layer already exists
+a4a50136decb: Layer already exists
+c99dbbb91c1e: Layer already exists
+743fabfe0b03: Layer already exists
+529f2cda666c: Layer already exists
+1a058d5342cc: Layer already exists                     latest: digest: sha256:31b9e5beeb658182d0450b38ed334575c849e5825112728c700172db25c090ac size: 1991       PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\> docker ps
+CONTAINER ID   IMAGE             COMMAND               
+   CREATED         STATUS         PORTS                
+    NAMES
+6f31c03376f8   getting-started   "docker-entrypoint.s…"   7 minutes ago   Up 7 minutes   0.0.0.0:3000->3000/tcp   wizardly_burnell
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker ps
+CONTAINER ID   IMAGE             COMMAND               
+   CREATED         STATUS         PORTS                
+    NAMES
+6f31c03376f8   getting-started   "docker-entrypoint.s…"   8 minutes ago   Up 8 minutes   0.0.0.0:3000->3000/tcp   wizardly_burnell
+PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker run -it ubuntu ls
+bin   etc   lib32   media  proc  sbin  tmp
+boot  home  lib64   mnt    root  srv   usr
+dev   lib   libx32  opt    run   sys   var
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker volume create todo-db
+todo-db
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker run -dp 3000:3000 -v todos-db:/etc/todos getting-started
+edaeda51752deb5f0793c66599cb361f221d138f57fd82db834bf7571af1d59b
+docker: Error response from daemon: driver failed programming external connectivity on endpoint optimistic_villani (85fd67cdc6029c943a46b09b30fc03f7855727356aef6e4880bbfa6b65b31279): Bind for 0.0.0.0:3000 failed: port is already allocated.
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker inspect todo-db
+[
+    {
+        "Name": "todo-db",
+        "Id": "20f8b43e517455422573cd83b5f8c2aecbe37a3d1849eed76d546d955f5ae52c",
+        "Created": "2021-12-29T10:23:22.585186Z",      
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+        "ConfigOnly": false,
+(36be3242a73d0413980d3ceee7bbd5e72384bf30210d3035a078ba7fc7591633): Bind for 0.0.0.0:3000 failed: port is already allocated.
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker logs -f 12345shivaleela
+Error: No such container: 12345shivaleela
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker network create todo-app
+Error response from daemon: network with name todo-app already exists
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker run -d `
+>> ^C
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker exec -it 12345shivaleela mysql -u root -p
+Error: No such container: 12345shivaleela
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker run -d --network todo-app --network-alias mysql -v todo-mysql-data:/var/lib/mysql `>> -e MYSQL_ROOT_PASSWORD=secret `
+>> -e MYSQL_DATABASE=todos `
+>> mysql:5.7
+ (1)\getting-started-master\app> docker ps                  CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS                    NAMES                                            9b6cb5fba040   mysql:5.7         "docker-entrypoint.s…"   3 minutes ago    Up 2 minutes    3306/tcp, 33060/tcp      nice_rubin                                       6f31c03376f8   getting-started   "docker-entrypoint.s…"   27 minutes ago   Up 27 minutes   0.0.0.0:3000->3000/tcp   wizardly_burnell                                 PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker exec -it 9b6cb5fba040 mysql -u root -p                                     Enter password:
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)                           PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app>                            PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker exec -it 9b6cb5fba040 mysql -u root -p                                     Enter password:                                        ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)                           PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker run -it --network todo-app nicolaka/netshoot
+                    dP            dP                   
+        dP
+                    88            88                   
+        88
+88d888b. .d8888b. d8888P .d8888b. 88d888b. .d8888b. .d8888b. d8888P
+88'  `88 88ooood8   88   Y8ooooo. 88'  `88 88'  `88 88'  `88   88
+88    88 88.  ...   88         88 88    88 88.  .88 88.  .88   88
+dP    dP `88888P'   dP   `88888P' dP    dP `88888P' `88888P'   dP
+
+
+
+
+; <<>> DiG 9.16.22 <<>> mysql
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11061                                                     ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;mysql.                         IN      A
+
+;; ANSWER SECTION:
+mysql.                  600     IN      A       172.18.0.2
+;; Query time: 0 msec
+;; SERVER: 127.0.0.11#53(127.0.0.11)
+;; WHEN: Sat Jan 08 11:56:16 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+ 6ea4963c89c9  ~ 
+
+ 6ea4963c89c9  ~ 
+
+ 6ea4963c89c9  ~  wq
+a4ff488d8): Bind for 0.0.0.0:3000 failed: port is already allocated.
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS                    NAMES
+9b6cb5fba040   mysql:5.7         "docker-entrypoint.s…"   13 minutes ago   Up 13 minutes   3306/tcp, 33060/tcp      nice_rubin
+6f31c03376f8   getting-started   "docker-entrypoint.s…"   37 minutes ago   Up 37 minutes   0.0.0.0:3000->3000/tcp   wizardly_burnell
+PS C:\Users\ramyasri\Download>                                   -started-master\app> docker exec -it 9b6cb5fba040
+   CREATED          STATUS          PORTS                    NAMES                                            9b6cb5fba040   mysql:5.7         "docker-entrypoint.s…"   13 minutes ago   Up 13 minutes   3306/tcp, 33060/tcp      nice_rubin                                       6f31c03376f8   getting-started   "docker-entrypoint.s…"   37 minutes ago   Up 37 minutes   0.0.0.0:3000->3000/tcp   wizardly_burnell
+PS C:\Users\ramyasri\Download>                                   -started-master\app> docker exec -it 9b6cb5fba040       PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app>  docker exec -it 9b6cb5fba040 mysql -p todos
+Enter password:
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)                           PS C:\Users\shiva\Downloads\ docker exec -it 9b6cb5fba040 mysql -p todosaster\app>
+Enter password:
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)                           PS C:\Users\shiva\Downloads\getting-started-master (1)\getting-started-master\app> docker-compose version
+Docker Compose version v2.2.1
+PS C:\Users\ramyasri\Downloads\getting-started-master (1)\getting-started-master\app> docker-compose up -d
+[+] Building 53.2s (10/10) FINISHED
+ => [internal] load build definition from Docker  0.0s
+ => => transferring dockerfile: 1.12kB            0.0s 
+ => [internal] load .dockerignore                 0.0s 
+ => => transferring context: 52B                  0.0s
+ => [internal] load metadata for docker.io/libra  5.5s 
+ => [auth] library/python:pull token for registr  0.0s
+ => [base 1/4] FROM docker.io/library/python:al  12.2s
+ => => resolve docker.io/library/python:alpine@s  0.0s 
+ => => sha256:affe0faa14e7553fc5 1.37kB / 1.37kB  0.0s 
+ => => sha256:eb5bc7d10d52904953 7.44kB / 7.44kB  0.0s 
+ => => sha256:07a400e93df3fc 678.30kB / 678.30kB  2.6s
+ => => sha256:d8c681bc2183ac2 11.69MB / 11.69MB  10.0s 
+ => => sha256:c7f1ca1171d975af881f16 231B / 231B  1.1s 
+ => => sha256:dce56d40d885d2c884 1.65kB / 1.65kB  0.0s 
+ => => sha256:dc9256fcea2e541f17 2.35MB / 2.35MB  7.4s 
+ => => extracting sha256:07a400e93df3fcc09e5f874  1.0s 
+ => => extracting sha256:d8c681bc2183ac2de0b5e11  1.2s
+ => => extracting sha256:c7f1ca1171d975af881f16b  0.0s
+ => => extracting sha256:dc9256fcea2e541f17f0ed7  0.7s
+ => [internal] load build context                 0.0s
+ => => transferring context: 148B                 0.0s
+ => [base 2/4] WORKDIR /app                       0.2s
+ => [base 3/4] COPY requirements.txt .            0.0s
+ => [base 4/4] RUN pip install -r requirements.  34.5s 
+ => exporting to image                            0.6s 
+ => => exporting layers                           0.6s 
+ => => writing image sha256:6275dc29ff27ec2fbf19  0.0s 
+ => => naming to docker.io/library/getting-start  0.0s 
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+[+] Running 0/0
+[+] Running 0/0
+[+] Running 0/1ing-started-master_default  Creating 0.0[+] Running 0/1ing-started-master_default  Creating 0.1[+] Running 0/1ing-started-master_default  Creating 0.2[+] Running 0/1ing-started-master_default  Creating 0.3[+] Running 0/1ing-started-master_default  Creating 0.4[+] Running 0/1ing-started-master_default  Creating 0.5[+] Running 0/1ing-started-master_default  Creating 0.6[+] Running 0/1ing-started-master_default  Creating 0.7[+] Running 1/1ing-started-master_default  Creating 0.8 - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+ - Network getting-started-master_default   Created 0.8[+] Running 1/2
+<missing>      3 weeks ago      /bin/sh -c #(nop)  ENV YARN_VERSION=1.22.17     0B
+<missing>      3 weeks ago      /bin/sh -c addgroup -g 1000 node     && addu…   76MB
+<missing>      3 weeks ago      /bin/sh -c #(nop)  ENV NODE_VERSION=12.22.8     0B
+<missing>      8 weeks ago      /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B
+<missing>      8 weeks ago      /bin/sh -c #(nop) ADD file:762c899ec0505d1a3…   5.61MB
+
+
+
+
+
