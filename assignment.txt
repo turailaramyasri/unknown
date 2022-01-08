@@ -1,0 +1,1539 @@
+ramyasri@DESKTOP-007FPGI:~$ pwd
+/home/ramyasri
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex  Abcdopex   Abclmpet        Hashmum        abcd            allperms.sh  bootcamp1  emptyfile.sh  file2      initialZing    manu.txt     ramya.file  timjag  usr
+ABclmpex  Abcimplex  Abclmpex        InitialZink    add             args.sh      def        file          file3      input.sh       nn_playbook  temp        user    zing
+Abcd      Abcimplx   Galaxyinfo.txt  Zinginfor.txt  allcontent.txt  bootcamp     efgh       file1         ifelse.sh  intialHashmum  ramya        tempramya   user1   zinginfor.txt
+ramyasri@DESKTOP-007FPGI:~$ cd temp
+ramyasri@DESKTOP-007FPGI:~/temp$ ls
+ramyasri@DESKTOP-007FPGI:~/temp$ cd file
+-bash: cd: file: No such file or directory
+ramyasri@DESKTOP-007FPGI:~/temp$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ mkdir sys
+ramyasri@DESKTOP-007FPGI:~$ cd sys
+ramyasri@DESKTOP-007FPGI:~/sys$ ls
+ramyasri@DESKTOP-007FPGI:~/sys$ mkdir usr/local
+mkdir: cannot create directory ‘usr/local’: No such file or directory
+ramyasri@DESKTOP-007FPGI:~/sys$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ cd ..
+ramyasri@DESKTOP-007FPGI:/home$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ cd tmp
+ramyasri@DESKTOP-007FPGI:/tmp$ ls
+tmph5blrud4
+ramyasri@DESKTOP-007FPGI:/tmp$ cd foldr1
+-bash: cd: foldr1: No such file or directory
+ramyasri@DESKTOP-007FPGI:/tmp$ mkdir foldr1
+ramyasri@DESKTOP-007FPGI:/tmp$ cd foldr1
+ramyasri@DESKTOP-007FPGI:/tmp/foldr1$ ls
+ramyasri@DESKTOP-007FPGI:/tmp/foldr1$ cd../..
+-bash: cd../..: No such file or directory
+ramyasri@DESKTOP-007FPGI:/tmp/foldr1$ cd ..
+ramyasri@DESKTOP-007FPGI:/tmp$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ ls>outputfile.txt
+-bash: outputfile.txt: Permission denied
+ramyasri@DESKTOP-007FPGI:/$ mkdir outputfile.txt
+mkdir: cannot create directory ‘outputfile.txt’: Permission denied
+ramyasri@DESKTOP-007FPGI:/$ cd tmp
+ramyasri@DESKTOP-007FPGI:/tmp$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ ls
+bin  boot  bootcamp  crossdistroFfFNHl  dev  etc  home  init  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+ramyasri@DESKTOP-007FPGI:/$ echo mytext.txt
+mytext.txt
+ramyasri@DESKTOP-007FPGI:/$ cd temp
+-bash: cd: temp: No such file or directory
+ramyasri@DESKTOP-007FPGI:/$ cd tmp
+ramyasri@DESKTOP-007FPGI:/tmp$ cp mytext.txt backup mytext.txt
+cp: target 'mytext.txt' is not a directory
+ramyasri@DESKTOP-007FPGI:/tmp$ ls
+foldr1  tmph5blrud4
+ramyasri@DESKTOP-007FPGI:/tmp$ mv mytext.txt
+mv: missing destination file operand after 'mytext.txt'
+Try 'mv --help' for more information.
+ramyasri@DESKTOP-007FPGI:/tmp$ whoami
+ramyasri
+ramyasri@DESKTOP-007FPGI:/tmp$ who
+ramyasri@DESKTOP-007FPGI:/tmp$ id
+uid=1000(ramyasri) gid=1000(ramyasri) groups=1000(ramyasri),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),117(netdev),1026(docker)
+ramyasri@DESKTOP-007FPGI:/tmp$ w
+ 19:32:58 up 25 min,  0 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+ramyasri@DESKTOP-007FPGI:/tmp$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ passwd
+Changing password for ramyasri.
+Current password:
+New password:
+Retype new password:
+You must choose a longer password
+New password:
+Retype new password:
+passwd: password updated successfully
+ramyasri@DESKTOP-007FPGI:/$ mam mam
+
+Command 'mam' not found, did you mean:
+
+  command 'maim' from deb maim (5.5.3-1build1)
+  command 'mag' from deb texlive-binaries (2019.20190605.51237-3build2)
+  command 'mwm' from deb mwm (2.3.8-2build1)
+  command 'maq' from deb maq (0.7.1-8build1)
+  command 'mm' from deb multimail (0.49-2build4)
+  command 'vam' from deb vim-addon-manager (0.5.10)
+  command 'man' from deb man-db (2.9.1-1)
+  command 'nam' from deb nam (1.15-5build1)
+  command 'bam' from deb bam (0.5.1-2)
+  command 'mma' from deb mma (20.02-1)
+  command 'mame' from deb mame (0.220+dfsg.1-1)
+  command 'jam' from deb ftjam (2.5.2-1.1build1)
+  command 'jam' from deb jam (2.6.1-2)
+  command 'mad' from deb mmv (1.01b-19build1)
+
+Try: sudo apt install <deb name>
+
+ramyasri@DESKTOP-007FPGI:/$ cd /
+ramyasri@DESKTOP-007FPGI:/$ ls
+bin  boot  bootcamp  crossdistroFfFNHl  dev  etc  home  init  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+ramyasri@DESKTOP-007FPGI:/$ cat etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+ramyasri:x:1000:1000:,,,:/home/ramyasri:/bin/bash
+manu:x:1001:1001::/home/manu:/bin/sh
+rama:x:1002:1002::/home/rama:/bin/sh
+nethra:x:1003:1003::/home/nethra:/bin/sh
+hima:x:1004:1004::/home/hima:/bin/sh
+mounica:x:1005:1005::/home/mounica:/bin/sh
+ramya:x:1006:1006::/home/ramya:/bin/sh
+sri:x:1007:1007::/home/sri:/bin/sh
+bhavi:x:1008:1008::/home/bhavi:/bin/sh
+nani:x:1009:1009::/home/nani:/bin/sh
+anu:x:1010:1010::/home/anu:/bin/sh
+rajitha:x:1011:1011::/home/rajitha:/bin/sh
+pravalika:x:1012:1012::/home/pravalika:/bin/sh
+shiva:x:1013:1013::/home/shiva:/bin/sh
+eshu:x:1014:1014:,,,:/home/eshu:/bin/bash
+yashu:x:1015:1015:,,,:/home/yashu:/bin/bash
+siri:x:1016:1016:,,,:/home/siri:/bin/bash
+soju:x:1017:1017:,,,:/home/soju:/bin/bash
+jogdir:x:1018:1018:,,,:/home/jogdir:/bin/bash
+shiv:x:1019:1019:,,,:/home/shiv:/bin/bash
+sam:x:1020:1020:,,,:/home/sam:/bin/bash
+sandy:x:1021:1021:,,,:/home/sandy:/bin/bash
+bootcamp:x:1022:1023:,,,:/home/bootcamp:/bin/bash
+user:x:1023:1024:,,,:/home/user:/bin/bash
+suku:x:1024:1027:,,,:/home/suku:/bin/bash
+sush:x:1025:1028:,,,:/home/sush:/bin/bash
+user1:x:1026:1029::/home/user1:/bin/sh
+user2:x:1027:1030::/home/user2:/bin/sh
+sample1:x:1028:1031:,,,:/home/sample1:/bin/bash
+sample2:x:1029:1032:,,,:/home/sample2:/bin/bash
+txt:x:1030:1033:,,,:/home/txt:/bin/bash
+ramyasri@DESKTOP-007FPGI:/$ sudo add new
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+sudo: add: command not found
+ramyasri@DESKTOP-007FPGI:/$ sudo adduser new
+Adding user `new' ...
+Adding new group `new' (1034) ...
+Adding new user `new' (1031) with group `new' ...
+Creating home directory `/home/new' ...
+Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for new
+Enter the new value, or press ENTER for the default
+        Full Name []:
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n]
+ramyasri@DESKTOP-007FPGI:/$ pwd
+/
+ramyasri@DESKTOP-007FPGI:/$ cat/etc/passwd
+-bash: cat/etc/passwd: No such file or directory
+ramyasri@DESKTOP-007FPGI:/$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+ramyasri:x:1000:1000:,,,:/home/ramyasri:/bin/bash
+manu:x:1001:1001::/home/manu:/bin/sh
+rama:x:1002:1002::/home/rama:/bin/sh
+nethra:x:1003:1003::/home/nethra:/bin/sh
+hima:x:1004:1004::/home/hima:/bin/sh
+mounica:x:1005:1005::/home/mounica:/bin/sh
+ramya:x:1006:1006::/home/ramya:/bin/sh
+sri:x:1007:1007::/home/sri:/bin/sh
+bhavi:x:1008:1008::/home/bhavi:/bin/sh
+nani:x:1009:1009::/home/nani:/bin/sh
+anu:x:1010:1010::/home/anu:/bin/sh
+rajitha:x:1011:1011::/home/rajitha:/bin/sh
+pravalika:x:1012:1012::/home/pravalika:/bin/sh
+shiva:x:1013:1013::/home/shiva:/bin/sh
+eshu:x:1014:1014:,,,:/home/eshu:/bin/bash
+yashu:x:1015:1015:,,,:/home/yashu:/bin/bash
+siri:x:1016:1016:,,,:/home/siri:/bin/bash
+soju:x:1017:1017:,,,:/home/soju:/bin/bash
+jogdir:x:1018:1018:,,,:/home/jogdir:/bin/bash
+shiv:x:1019:1019:,,,:/home/shiv:/bin/bash
+sam:x:1020:1020:,,,:/home/sam:/bin/bash
+sandy:x:1021:1021:,,,:/home/sandy:/bin/bash
+bootcamp:x:1022:1023:,,,:/home/bootcamp:/bin/bash
+user:x:1023:1024:,,,:/home/user:/bin/bash
+suku:x:1024:1027:,,,:/home/suku:/bin/bash
+sush:x:1025:1028:,,,:/home/sush:/bin/bash
+user1:x:1026:1029::/home/user1:/bin/sh
+user2:x:1027:1030::/home/user2:/bin/sh
+sample1:x:1028:1031:,,,:/home/sample1:/bin/bash
+sample2:x:1029:1032:,,,:/home/sample2:/bin/bash
+txt:x:1030:1033:,,,:/home/txt:/bin/bash
+new:x:1031:1034:,,,:/home/new:/bin/bash
+ramyasri@DESKTOP-007FPGI:/$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,ramyasri
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:ramyasri
+fax:x:21:
+voice:x:22:
+cdrom:x:24:ramyasri
+floppy:x:25:ramyasri
+tape:x:26:
+sudo:x:27:ramyasri
+audio:x:29:ramyasri
+dip:x:30:ramyasri
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:ramyasri
+sasl:x:45:
+plugdev:x:46:ramyasri
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:ramyasri
+lxd:x:118:
+ramyasri:x:1000:
+manu:x:1001:
+rama:x:1002:
+nethra:x:1003:
+hima:x:1004:
+mounica:x:1005:
+ramya:x:1006:
+sri:x:1007:
+bhavi:x:1008:
+nani:x:1009:
+anu:x:1010:
+rajitha:x:1011:
+pravalika:x:1012:
+shiva:x:1013:
+eshu:x:1014:
+yashu:x:1015:
+siri:x:1016:
+soju:x:1017:
+jogdir:x:1018:
+shiv:x:1019:
+sam:x:1020:
+sandy:x:1021:
+develops:x:1022:
+bootcamp:x:1023:
+user:x:1024:
+devops:x:1025:
+docker:x:1026:ramyasri
+suku:x:1027:
+sush:x:1028:
+user1:x:1029:
+user2:x:1030:
+sample1:x:1031:
+sample2:x:1032:
+txt:x:1033:
+new:x:1034:
+ramyasri@DESKTOP-007FPGI:/$ groupadd
+Usage: groupadd [options] GROUP
+
+Options:
+  -f, --force                   exit successfully if the group already exists,
+                                and cancel -g if the GID is already used
+  -g, --gid GID                 use GID for the new group
+  -h, --help                    display this help message and exit
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -o, --non-unique              allow to create groups with duplicate
+                                (non-unique) GID
+  -p, --password PASSWORD       use this encrypted password for the new group
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       directory prefix
+      --extrausers              Use the extra users database
+
+ramyasri@DESKTOP-007FPGI:/$ groupmod
+Usage: groupmod [options] GROUP
+
+Options:
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+
+ramyasri@DESKTOP-007FPGI:/$ usermod
+Usage: usermod [options] LOGIN
+
+Options:
+  -b, --badnames                allow bad names
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+
+ramyasri@DESKTOP-007FPGI:/$ sudo groupadd training
+ramyasri@DESKTOP-007FPGI:/$ ls
+bin  boot  bootcamp  crossdistroFfFNHl  dev  etc  home  init  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+ramyasri@DESKTOP-007FPGI:/$ ls -i
+              12 bin                               1 dev               1596 lib                   11 lost+found                 1 proc             49153 snap             65537 usr
+            8193 boot                          16385 etc               1597 lib32              24577 media                  40961 root             49154 srv              40963 var
+           98305 bootcamp                      16386 home              1598 lib64              24578 mnt                        1 run                  1 sys
+           98306 crossdistroFfFNHl  1407374884181095 init              1599 libx32             32769 opt                     1605 sbin             57346 tmp
+ramyasri@DESKTOP-007FPGI:/$ ls -a
+.  ..  bin  boot  bootcamp  crossdistroFfFNHl  dev  etc  home  init  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+ramyasri@DESKTOP-007FPGI:/$ touch myemptfile
+touch: cannot touch 'myemptfile': Permission denied
+ramyasri@DESKTOP-007FPGI:/$ mkdir myemptfile
+mkdir: cannot create directory ‘myemptfile’: Permission denied
+ramyasri@DESKTOP-007FPGI:/$ nano name.txt
+ramyasri@DESKTOP-007FPGI:/$ cat name.txt
+cat: name.txt: No such file or directory
+ramyasri@DESKTOP-007FPGI:/$ nano name.txt
+ramyasri@DESKTOP-007FPGI:/$ nano fsam.txt
+ramyasri@DESKTOP-007FPGI:/$ ls
+bin  boot  bootcamp  crossdistroFfFNHl  dev  etc  home  init  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+ramyasri@DESKTOP-007FPGI:/$ nano ramya.txt
+ramyasri@DESKTOP-007FPGI:/$ cat ramya.txt
+cat: ramya.txt: No such file or directory
+ramyasri@DESKTOP-007FPGI:/$ cd ..
+ramyasri@DESKTOP-007FPGI:/$ cd
+ramyasri@DESKTOP-007FPGI:~$ nano ramya.txt
+ramyasri@DESKTOP-007FPGI:~$ cat ramya.txt
+welcome to the world
+
+ramyasri@DESKTOP-007FPGI:~$ rm --ramya.txt
+rm: unrecognized option '--ramya.txt'
+Try 'rm --help' for more information.
+ramyasri@DESKTOP-007FPGI:~$ rm ramya.txt
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex  Abcdopex   Abclmpet        Hashmum        abcd            allperms.sh  bootcamp1  emptyfile.sh  file2      initialZing    manu.txt     ramya.file  tempramya  user1  zinginfor.txt
+ABclmpex  Abcimplex  Abclmpex        InitialZink    add             args.sh      def        file          file3      input.sh       nn_playbook  sys         timjag     usr
+Abcd      Abcimplx   Galaxyinfo.txt  Zinginfor.txt  allcontent.txt  bootcamp     efgh       file1         ifelse.sh  intialHashmum  ramya        temp        user       zing
+ramyasri@DESKTOP-007FPGI:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        6298032       84964     6131816          72       81252     6047288
+Swap:       2097152           0     2097152
+ramyasri@DESKTOP-007FPGI:~$ uptime
+ 19:54:46 up 47 min,  0 users,  load average: 0.00, 0.00, 0.00
+>>> 'hello!'
+'hello!'
+>>> 12+67
+79
+>>> 87-60
+27
+>>> 254/6
+42.333333333333336
+>>> 254//6
+42
+>>> 55%5
+0
+>>> name='ramya'
+>>> no=123
+>>> city='warangal'
+>>> print("name is"+name+"city:"+city+"and no:"+str(no))
+name isramyacity:warangaland no:123
+>>> if(no<10):
+...  print('Signal digit no'+str(no))
+... else:
+...  print('multi digit no'+str(no))
+...
+multi digit no12
+>>> friends=['ramya','mounika','srilatha','shivaleela']
+>>> friends[1]
+'mounika'
+>>> friends[2]
+'srilatha'
+>>> friend[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'friend' is not defined
+>>> name= input("what is your name")
+what is your name ramya
+>>> print(name)
+ ramya
+>>> a,b=1,2
+>>> n=14
+>>> while (a < n):
+... print(a,end='')
+  File "<stdin>", line 2
+    print(a,end='')
+    ^
+IndentationError: expected an indented block
+>>> a,b=1,2
+>>> n=14
+>>> while (a < n):
+...  print(a,end='')
+... a,b = b,a+b
+  File "<stdin>", line 3
+    a,b = b,a+b
+    ^
+SyntaxError: invalid syntax
+>>>  a,b = b,a+b
+  File "<stdin>", line 1
+    a,b = b,a+b
+    ^
+IndentationError: unexpected indent
+>>> a,b=1,2
+>>> n=14
+>>> while (a < n):
+... print(a,end='')
+  File "<stdin>", line 2
+    print(a,end='')
+>>> no=789
+>>> if(no<10):
+...  print('Single digit no'+str(no))
+... elif(no<100):
+...  print('doublee digit no'+str(no))
+... elif(no<1000):
+...  print('triplee digit no'+str(no))
+... elif(no<10000):
+...  print('four digit no'+str(no))
+... else:
+...  print('multi digit no'+str(no))
+...
+triplee digit no789
+>>> a,b=0,1
+>>> n=14
+>>> whil(a < n):
+  File "<stdin>", line 1
+    whil(a < n):
+               ^
+SyntaxError: invalid syntax
+>>> a,b=0,1
+>>> n=14
+>>> while(a < n):
+...  print(a,end='')
+... a,b =b,a+b
+  File "<stdin>", line 3
+    a,b =b,a+b
+    ^
+SyntaxError: invalid syntax
+>>> a,b=0,1
+>>> n=14
+>>> while(a < n):
+...  print(a,end='')
+... a ,b =b,a+b
+  File "<stdin>", line 3
+    a ,b =b,a+b
+    ^
+SyntaxError: invalid syntax
+>>> a,b=0,1
+>>> n=14
+>>> while(a < n):
+...  print(a,end='')
+... a, b =b,a+b
+  File "<stdin>", line 3
+    a, b =b,a+b
+    ^
+SyntaxError: invalid syntax
+>>> def calculate(no)
+  File "<stdin>", line 1
+    def calculate(no)
+                    ^
+SyntaxError: invalid syntax
+>>> def calculate(no):
+... if(no>100):
+  File "<stdin>", line 2
+    if(no>100):
+    ^
+IndentationError: expected an indented block
+>>> def calculate(no):
+... if(no>100):
+  File "<stdin>", line 2
+    if(no>100):
+    ^
+IndentationError: expected an indented block
+>>> def hellofunc(n,m):
+... if(n>m):
+  File "<stdin>", line 2
+    if(n>m):
+    ^
+IndentationError: expected an indented block
+>>> class product:
+... def setproduct(self,name,price,qty):
+  File "<stdin>", line 2
+    def setproduct(self,name,price,qty):
+    ^
+IndentationError: expected an indented block
+>>> class product:
+...  def setproduct(self,name,price,qty):
+...      self.name=name
+...      self.price=price
+...      self.qty=qty
+... def getproduct(self):
+  File "<stdin>", line 6
+    def getproduct(self):
+    ^
+SyntaxError: invalid syntax
+>>> class product:
+... def setproduct(self,name,price,qty):
+  File "<stdin>", line 2
+    def setproduct(self,name,price,qty):
+    ^
+IndentationError: expected an indented block
+>>> class product:
+...  def setproduct(self,name,price,qty):
+...      self.name=name
+...      self.price=price
+...      self.qty=qty
+...  def getproduct(self):
+...       print(self.name):
+  File "<stdin>", line 7
+    print(self.name):
+                    ^
+SyntaxError: invalid syntax
+>>> class product:
+...  def setproduct(self,name,price,qty):
+...      self.name=name
+...      self.price=price
+...      self.qty=qty
+...  def getproduct(self):
+...       print(self.name):
+  File "<stdin>", line 7
+    print(self.name):
+                    ^
+SyntaxError: invalid syntax
+>>> class product:
+...  def setproduct(self,name,price,qty):
+...      self.name=name
+...      self.price=price
+...      self.qty=qty
+...  def getproduct(self):
+...       print(self.name)
+...       print(self.price)
+...       print(self.qty)
+...
+>>> prd = product()
+>>> prd.setproduct('cake',400,5)
+>>> prd.getproduct()
+cake
+400
+5
+>>> f=open('//home//ramya//mycontent.txt')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '//home//ramya//mycontent.txt'
+>>> f=open('//home//ramya')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '//home//ramya'
+>>> from math import *
+>>> a =pi
+>>> print(a)
+3.141592653589793
+>>> print(sqrt(64))
+8.0
+>>> print(pow(2,3))
+8.0
+>>> print(round(89.678))
+90
+>>> print(floor(990.999))
+990
+>>> print(ceil(90.0001))
+91
+ramyasri@DESKTOP-007FPGI:~$ pmap
+
+Usage:
+ pmap [options] PID [PID ...]
+
+Options:
+ -x, --extended              show details
+ -X                          show even more details
+            WARNING: format changes according to /proc/PID/smaps
+ -XX                         show everything the kernel provides
+ -c, --read-rc               read the default rc
+ -C, --read-rc-from=<file>   read the rc from file
+ -n, --create-rc             create new default rc
+ -N, --create-rc-to=<file>   create new rc to file
+            NOTE: pid arguments are not allowed with -n, -N
+ -d, --device                show the device format
+ -q, --quiet                 do not display header and footer
+ -p, --show-path             show path in the mapping
+ -A, --range=<low>[,<high>]  limit results to the given 
+range
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+ramyasri@DESKTOP-007FPGI:~$ top
+top - 11:51:40 up  1:43,  0 users,  load average: 0.69, 0.54, 0.57
+Tasks:  10 total,   1 running,   9 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  1.7 sy,  0.0 ni, 94.2 id,  3.3 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   6150.4 total,   2775.5 free,   1396.7 used,   1978.2 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   4157.9 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0     900    532    464 S   0.0   0.0   0:00.04 init
+  114 root      20   0     900     88     20 S   0.0   0.0   0:00.00 init
+  115 root      20   0     900     88     20 S   0.0   0.0   0:00.04 init
+  116 root      20   0 1532028  30712  13100 S   0.0   0.5   0:06.43 docker-desktop-
+  128 root      20   0     900     88     20 S   0.0   0.0   0:00.00 init
+  129 ramyasri  20   0  764520  51152  32664 S   0.0   0.8   0:02.09 docker
+  266 root      20   0     900     88     20 S   0.0   0.0   0:00.00 init
+  267 root      20   0     900     88     20 S   0.0   0.0   0:00.00 init
+  268 ramyasri  20   0   10036   5136   3412 S   0.0   0.1   0:00.03 bash
+  282 ramyasri  20   0   10896   3664   3132 R   0.0   0.1   0:00.00 top
+ramyasri@DESKTOP-007FPGI:~$ last
+
+wtmp begins Thu Dec 16 19:06:39 2021
+ramyasri@DESKTOP-007FPGI:~$ ps
+  PID TTY          TIME CMD
+  303 pts/2    00:00:00 bash
+  317 pts/2    00:00:00 ps
+ramyasri@DESKTOP-007FPGI:~$ info
+File: dir,      Node: Top,      This is the top of the INFO tree.
+
+This is the Info main menu (aka directory node).
+A few useful Info commands:
+
+  'q' quits;
+  'H' lists all Info commands;
+  'h' starts the Info tutorial;
+  'mTexinfo RET' visits the Texinfo manual, etc.
+
+* Menu:
+
+Basics
+* Common options: (coreutils)Common options.
+* Coreutils: (coreutils).       Core GNU (file, text, shell) utilities.
+* Date input formats: (coreutils)Date input formats.
+* File permissions: (coreutils)File permissions.
+                                Access modes.
+* Ed: (ed).                     The GNU line editor
+* Finding files: (find).        Operating on files matching certain criteria.
+
+Compression
+* Gzip: (gzip).                 General (de)compression of files (lzw).
+
+Editors
+* nano: (nano).                 Small and friendly text editor.
+
+General Commands
+* Screen: (screen).             Full-screen window manager.
+
+GNU organization
+* Maintaining Findutils: (find-maint).
+                                Maintaining GNU findutils
+
+GNU Utilities
+* dirmngr-client: (gnupg).      X.509 CRL and OCSP client.
+* dirmngr: (gnupg).             X.509 CRL and OCSP server.
+* gpg-agent: (gnupg).           The secret key daemon.
+-----Info: (dir)Top, 180 lines --Top--------------------------------------------------------------------------------------------------------------------------Welcome to Info version 6.7.  Type H for help, h for tutorial.Next: Invoking Info,  Prev: Top,  Up: Top
+
+1 Stand-alone Info
+******************
+
+The "Info" program described here is a stand-alone program, part of the
+Texinfo distribution, which is used to view Info files on a text
+terminal.  "Info files" are typically the result of processing Texinfo
+files with the program 'makeinfo' (also in the Texinfo distribution).
+
+   Texinfo itself (*note (texinfo)Top::) is a documentation system that
+uses a single source file to produce both on-line information and
+printed output.  You can typeset and print the files that you read in
+Info.
+
+   GNU Emacs also provides an Info reader (just type 'M-x info' in
+Emacs).  Emacs Info and stand-alone Info have nearly identical user
+interfaces, although customization and other details are different (this
+manual explains the stand-alone Info reader).  The Emacs Info reader
+supports the X Window System and other such bitmapped interfaces, not
+just plain ASCII, so if you want a prettier display for Info files, you
+should try it.  You can use Emacs Info without using Emacs for anything
+else.  (Type 'C-x C-c' to exit; this also works in the stand-alone Info
+reader.)  *Note (info)Top:: for a tutorial and more background
+information about the Info system, as well as information about the Info
+reader that is part of GNU Emacs,
+
+   Please report bugs in this stand-alone Info program to
+<bug-texinfo@gnu.org>.  Bugs in the Emacs Info reader should be sent to
+<bug-gnu-emacs@gnu.org>.
+ramyasri@DESKTOP-007FPGI:~$ env
+SHELL=/bin/bash
+WSL_DISTRO_NAME=Ubuntu-20.04
+NAME=DESKTOP-007FPGI
+PWD=/home/ramyasri
+LOGNAME=ramyasri
+HOME=/home/ramyasri
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/322_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=ramyasri
+SHLVL=1
+WSLENV=
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2021.825.0_x64__79rhkp1fndgsc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/himav/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/himav/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+HOSTTYPE=x86_64
+_=/usr/bin/env
+ramyasri@DESKTOP-007FPGI:~$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+/dev/sdd       263174212   1924124 247811932   1% /
+tmpfs            3149016    373264   2775752  12% /mnt/wsl
+/dev/sdc       263174212   2848516 246887540   2% /mnt/wsl/docker-desktop-data/isocache
+none             3149016        12   3149004   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdb       263174212    124952 249611104   1% /mnt/wsl/docker-desktop/docker-desktop-proxy
+/dev/loop0        342106    342106         0 100% /mnt/wsl/docker-desktop/cli-tools
+tools          489560060  73531488 416028572  16% /init
+none             3146964         0   3146964   0% /dev
+none             3149016         8   3149008   1% /run
+none             3149016         0   3149016   0% /run/lock
+none             3149016         0   3149016   0% /run/shm
+none             3149016         0   3149016   0% /run/user
+tmpfs            3149016         0   3149016   0% /sys/fs/cgroup
+drivers        489560060  73531488 416028572  16% /usr/lib/wsl/drivers
+lib            489560060  73531488 416028572  16% /usr/lib/wsl/lib
+C:\            489560060  73531488 416028572  16% /mnt/c
+D:\            251116540 101471724 149644816  41% /mnt/d
+E:\            235519996   9281760 226238236   4% /mnt/e
+ramyasri@DESKTOP-007FPGI:~$ man df
+DF(1)                                                                        User Commands                                                                        DF(1)
+
+NAME
+       df - report file system disk space usage
+
+SYNOPSIS
+       df [OPTION]... [FILE]...
+
+DESCRIPTION
+       This  manual page documents the GNU version of df.  df displays the amount of disk space available on the file system containing each file name argument.  If no
+       file name is given, the space available on all currently mounted file systems is shown.  Disk space is shown in 1K blocks by  default,  unless  the  environment
+       variable POSIXLY_CORRECT is set, in which case 512-byte blocks are used.
+
+       If an argument is the absolute file name of a disk device node containing a mounted file system, df shows the space available on that file system rather than on
+       the file system containing the device node.  This version of df cannot show the space available on unmounted file systems, because on most kinds of systems  do‐
+       ing so requires very nonportable intimate knowledge of file system structures.
+
+OPTIONS
+       Show information about the file system on which each FILE resides, or all file systems by default.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              include pseudo, duplicate, inaccessible file systems
+
+       -B, --block-size=SIZE
+              scale sizes by SIZE before printing them; e.g., '-BM' prints sizes in units of 1,048,576 bytes; see SIZE format below
+
+       -h, --human-readable
+              print sizes in powers of 1024 (e.g., 1023M)
+
+       -H, --si
+              print sizes in powers of 1000 (e.g., 1.1G)
+
+       -i, --inodes
+              list inode information instead of block usage
+
+       -k     like --block-size=1K
+
+       -l, --local
+              limit listing to local file systems
+ramyasri@DESKTOP-007FPGI:~$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+/dev/sdd       263174212   1924124 247811932   1% /
+tmpfs            3149016    373264   2775752  12% /mnt/wsl
+/dev/sdc       263174212   2848516 246887540   2% /mnt/wsl/docker-desktop-data/isocache
+none             3149016        12   3149004   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdb       263174212    124952 249611104   1% /mnt/wsl/docker-desktop/docker-desktop-proxy
+/dev/loop0        342106    342106         0 100% /mnt/wsl/docker-desktop/cli-tools
+tools          489560060  73531488 416028572  16% /init
+none             3146964         0   3146964   0% /dev
+none             3149016         8   3149008   1% /run
+none             3149016         0   3149016   0% /run/lock
+none             3149016         0   3149016   0% /run/shm
+none             3149016         0   3149016   0% /run/user
+tmpfs            3149016         0   3149016   0% /sys/fs/cgroup
+drivers        489560060  73531488 416028572  16% /usr/lib/wsl/drivers
+lib            489560060  73531488 416028572  16% /usr/lib/wsl/lib
+C:\            489560060  73531488 416028572  16% /mnt/c
+D:\            251116540 101471724 149644816  41% /mnt/d
+E:\            235519996   9281760 226238236   4% /mnt/e
+ramyasri@DESKTOP-007FPGI:~$ man df
+ramyasri@DESKTOP-007FPGI:~$ man df
+ramyasri@DESKTOP-007FPGI:~$ df -ah
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd        251G  1.9G  237G   1% /
+tmpfs           3.1G  365M  2.7G  12% /mnt/wsl
+/dev/sdc        251G  2.8G  236G   2% /mnt/wsl/docker-desktop-data/isocache
+none            3.1G   12K  3.1G   1% /mnt/wsl/docker-desktop/shared-sockets/guest-services
+none            3.1G   12K  3.1G   1% /mnt/wsl/docker-desktop/shared-sockets/host-services
+/dev/sdb        251G  123M  239G   1% /mnt/wsl/docker-desktop/docker-desktop-proxy
+/dev/loop0      335M  335M     0 100% /mnt/wsl/docker-desktop/cli-tools
+tools           467G   71G  397G  16% /init
+none            3.1G     0  3.1G   0% /dev
+sysfs              0     0     0    - /sys
+proc               0     0     0    - /proc
+devpts             0     0     0    - /dev/pts
+none            3.1G  8.0K  3.1G   1% /run
+none            3.1G     0  3.1G   0% /run/lock
+none            3.1G     0  3.1G   0% /run/shm
+none            3.1G     0  3.1G   0% /run/user
+binfmt_misc        0     0     0    - /proc/sys/fs/binfmt_misc
+tmpfs           3.1G     0  3.1G   0% /sys/fs/cgroup
+drivers         467G   71G  397G  16% /usr/lib/wsl/drivers
+lib             467G   71G  397G  16% /usr/lib/wsl/lib
+cgroup2            0     0     0    - /sys/fs/cgroup/unified
+cgroup             0     0     0    - /sys/fs/cgroup/cpuset
+cgroup             0     0     0    - /sys/fs/cgroup/cpu
+cgroup             0     0     0    - /sys/fs/cgroup/cpuacct
+cgroup             0     0     0    - /sys/fs/cgroup/blkio
+cgroup             0     0     0    - /sys/fs/cgroup/memory
+cgroup             0     0     0    - /sys/fs/cgroup/devices
+cgroup             0     0     0    - /sys/fs/cgroup/freezer
+cgroup             0     0     0    - /sys/fs/cgroup/net_cls
+cgroup             0     0     0    - /sys/fs/cgroup/perf_event
+cgroup             0     0     0    - /sys/fs/cgroup/net_prio
+cgroup             0     0     0    - /sys/fs/cgroup/hugetlb
+cgroup             0     0     0    - /sys/fs/cgroup/pids
+cgroup             0     0     0    - /sys/fs/cgroup/rdma
+C:\             467G   71G  397G  16% /mnt/c
+D:\             240G   97G  143G  41% /mnt/d
+E:\             225G  8.9G  216G   4% /mnt/e
+tmpfs              -     -     -    - /mnt/wsl/docker-desktop-data/tarcache/entries/docker.tar/3ace0e3017581bbd4dc82da7aed93a07996abe2a4c3cf901efa2a0f0e352492c/containers/services/docker/tmp
+overlay            -     -     -    - /mnt/wsl/docker-desktop-data/tarcache/entries/docker.tar/3ace0e3017581bbd4dc82da7aed93a07996abe2a4c3cf901efa2a0f0e352492c/containers/services/docker/rootfs
+ramyasri@DESKTOP-007FPGI:~$ ansible -m ping --ask-pass
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+ansible: error: the following arguments are required: pattern
+
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative path for many features including roles/
+                        group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location, executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ramyasri@DESKTOP-007FPGI:~$ sudo apt install python3-argcomplete
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following NEW packages will be installed:
+  python3-argcomplete
+0 upgraded, 1 newly installed, 0 to remove and 94 not upgraded.
+Need to get 27.2 kB of archives.
+After this operation, 126 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 python3-argcomplete all 1.8.1-1.3ubuntu1 [27.2 kB]
+Fetched 27.2 kB in 2s (17.3 kB/s)
+Selecting previously unselected package python3-argcomplete.
+(Reading database ... 74845 files and directories currently installed.)
+Preparing to unpack .../python3-argcomplete_1.8.1-1.3ubuntu1_all.deb ...
+Unpacking python3-argcomplete (1.8.1-1.3ubuntu1) ...
+Setting up python3-argcomplete (1.8.1-1.3ubuntu1) ...
+Processing triggers for man-db (2.9.1-1) ...
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex  Abcimplex  Galaxyinfo.txt  abcd            args.sh    efgh          file2        input.sh       ramya       tempramya  usr
+ABclmpex  Abcimplx   Hashmum         add             bootcamp   emptyfile.sh  file3        intialHashmum  ramya.file  timjag     zing
+Abcd      Abclmpet   InitialZink     allcontent.txt  bootcamp1  file          ifelse.sh    manu.txt       sys         user       zinginfor.txt
+Abcdopex  Abclmpex   Zinginfor.txt   allperms.sh     def        file1         initialZing  nn_playbook    temp        user1
+ramyasri@DESKTOP-007FPGI:~$ nano args.sh
+ramyasri@DESKTOP-007FPGI:~$ cat args.sh
+#!/bin/bash
+ echo "in order,$1 $2 $3"
+ echo "Reverse, $3 $2 $1"
+ramyasri@DESKTOP-007FPGI:~$ chmod +x args.sh
+ramyasri@DESKTOP-007FPGI:~$ ./args.sh
+in order,
+Reverse,
+ramyasri@DESKTOP-007FPGI:~$ ansible -h
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative path for many features including roles/
+                        group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location, executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ramyasri@DESKTOP-007FPGI:~$ ansible --function
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+ansible: error: the following arguments are required: pattern
+
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative path for many features including roles/
+                        group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location, executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ramyasri@DESKTOP-007FPGI:~$ ansible --function
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+ansible: error: the following arguments are required: pattern
+
+usage: ansible [-h] [--version] [-v] [-b] [--become-method BECOME_METHOD] [--become-user BECOME_USER] [-K] [-i INVENTORY] [--list-hosts] [-l SUBSET] [-P POLL_INTERVAL]
+               [-B SECONDS] [-o] [-t TREE] [-k] [--private-key PRIVATE_KEY_FILE] [-u REMOTE_USER] [-c CONNECTION] [-T TIMEOUT] [--ssh-common-args SSH_COMMON_ARGS]
+               [--sftp-extra-args SFTP_EXTRA_ARGS] [--scp-extra-args SCP_EXTRA_ARGS] [--ssh-extra-args SSH_EXTRA_ARGS] [-C] [--syntax-check] [-D] [-e EXTRA_VARS]
+               [--vault-id VAULT_IDS] [--ask-vault-password | --vault-password-file VAULT_PASSWORD_FILES] [-f FORKS] [-M MODULE_PATH] [--playbook-dir BASEDIR]
+               [--task-timeout TASK_TIMEOUT] [-a MODULE_ARGS] [-m MODULE_NAME]
+               pattern
+
+Define and run a single task 'playbook' against a set of hosts
+
+positional arguments:
+  pattern               host pattern
+
+optional arguments:
+  --ask-vault-password, --ask-vault-pass
+                        ask for vault password
+  --list-hosts          outputs a list of matching hosts; does not execute anything else
+  --playbook-dir BASEDIR
+                        Since this tool does not use playbooks, use this as a substitute playbook directory.This sets the relative path for many features including roles/
+                        group_vars/ etc.
+  --syntax-check        perform a syntax check on the playbook, but do not execute it
+  --task-timeout TASK_TIMEOUT
+                        set task timeout limit in seconds, must be positive integer.
+  --vault-id VAULT_IDS  the vault identity to use
+  --vault-password-file VAULT_PASSWORD_FILES, --vault-pass-file VAULT_PASSWORD_FILES
+                        vault password file
+  --version             show program's version number, config file location, configured module search path, module location, executable location and exit
+  -B SECONDS, --background SECONDS
+                        run asynchronously, failing after X seconds (default=N/A)
+  -C, --check           don't make any changes; instead, try to predict some of the changes that may occur
+  -D, --diff            when changing (small) files and templates, show the differences in those files; works great with --check
+  -M MODULE_PATH, --module-path MODULE_PATH
+                        prepend colon-separated path(s) to module library (default=~/.ansible/plugins/modules:/usr/share/ansible/plugins/modules)
+  -P POLL_INTERVAL, --poll POLL_INTERVAL
+                        set the poll interval if using -B (default=15)
+  -a MODULE_ARGS, --args MODULE_ARGS
+                        The action's options in space separated k=v format: -a 'opt1=val1 opt2=val2'
+  -e EXTRA_VARS, --extra-vars EXTRA_VARS
+                        set additional variables as key=value or YAML/JSON, if filename prepend with @
+  -f FORKS, --forks FORKS
+                        specify number of parallel processes to use (default=5)
+  -h, --help            show this help message and exit
+  -i INVENTORY, --inventory INVENTORY, --inventory-file INVENTORY
+                        specify inventory host path or comma separated host list. --inventory-file is deprecated
+  -l SUBSET, --limit SUBSET
+                        further limit selected hosts to an additional pattern
+  -m MODULE_NAME, --module-name MODULE_NAME
+                        Name of the action to execute (default=command)
+  -o, --one-line        condense output
+  -t TREE, --tree TREE  log output to this directory
+  -v, --verbose         verbose mode (-vvv for more, -vvvv to enable connection debugging)
+
+Privilege Escalation Options:
+  control how and which user you become as on target hosts
+
+  --become-method BECOME_METHOD
+                        privilege escalation method to use (default=sudo), use `ansible-doc -t become -l` to list valid choices.
+  --become-user BECOME_USER
+                        run operations as this user (default=root)
+  -K, --ask-become-pass
+                        ask for privilege escalation password
+  -b, --become          run operations with become (does not imply password prompting)
+
+Connection Options:
+  control as whom and how to connect to hosts
+
+  --private-key PRIVATE_KEY_FILE, --key-file PRIVATE_KEY_FILE
+                        use this file to authenticate the connection
+  --scp-extra-args SCP_EXTRA_ARGS
+                        specify extra arguments to pass to scp only (e.g. -l)
+  --sftp-extra-args SFTP_EXTRA_ARGS
+                        specify extra arguments to pass to sftp only (e.g. -f, -l)
+  --ssh-common-args SSH_COMMON_ARGS
+                        specify common arguments to pass to sftp/scp/ssh (e.g. ProxyCommand)
+  --ssh-extra-args SSH_EXTRA_ARGS
+                        specify extra arguments to pass to ssh only (e.g. -R)
+  -T TIMEOUT, --timeout TIMEOUT
+                        override the connection timeout in seconds (default=10)
+  -c CONNECTION, --connection CONNECTION
+                        connection type to use (default=smart)
+  -k, --ask-pass        ask for connection password
+  -u REMOTE_USER, --user REMOTE_USER
+                        connect as this user (default=None)
+
+Some actions do not make sense in Ad-Hoc (include, meta, etc)
+ramyasri@DESKTOP-007FPGI:~$ bash --version
+GNU bash, version 5.0.17(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+ramyasri@DESKTOP-007FPGI:~$ sudo apt install nfs-kernel-server
+[sudo] password for ramyasri:
+Sorry, try again.
+[sudo] password for ramyasri:
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  keyutils libnfsidmap2 libtirpc-common libtirpc3 nfs-common rpcbind
+Suggested packages:
+  watchdog
+The following NEW packages will be installed:
+  keyutils libnfsidmap2 libtirpc-common libtirpc3 nfs-common nfs-kernel-server rpcbind
+0 upgraded, 7 newly installed, 0 to remove and 94 not upgraded.
+Need to get 503 kB of archives.
+After this operation, 1936 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+0% [Connecting to archive.ubuntu.com]
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libtirpc-common all 1.2.5-1 [7632 B]
+Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libtirpc3 amd64 1.2.5-1 [77.2 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 rpcbind amd64 1.2.5-8 [42.8 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 keyutils amd64 1.6-6ubuntu1 [45.0 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libnfsidmap2 amd64 0.25-5.1ubuntu1 [27.9 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nfs-common amd64 1:1.3.4-2.5ubuntu3.4 [204 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 nfs-kernel-server amd64 1:1.3.4-2.5ubuntu3.4 [98.9 kB]
+Fetched 503 kB in 2s (201 kB/s)
+Selecting previously unselected package libtirpc-common.
+(Reading database ... 74872 files and directories currently installed.)
+Preparing to unpack .../0-libtirpc-common_1.2.5-1_all.deb ...
+Unpacking libtirpc-common (1.2.5-1) ...
+Selecting previously unselected package libtirpc3:amd64.
+Preparing to unpack .../1-libtirpc3_1.2.5-1_amd64.deb ...
+Unpacking libtirpc3:amd64 (1.2.5-1) ...
+Selecting previously unselected package rpcbind.
+Preparing to unpack .../2-rpcbind_1.2.5-8_amd64.deb ...
+Unpacking rpcbind (1.2.5-8) ...
+Selecting previously unselected package keyutils.
+Preparing to unpack .../3-keyutils_1.6-6ubuntu1_amd64.deb ...
+Unpacking keyutils (1.6-6ubuntu1) ...
+Selecting previously unselected package libnfsidmap2:amd64.
+Preparing to unpack .../4-libnfsidmap2_0.25-5.1ubuntu1_amd64.deb ...
+Unpacking libnfsidmap2:amd64 (0.25-5.1ubuntu1) ...
+Selecting previously unselected package nfs-common.
+Preparing to unpack .../5-nfs-common_1%3a1.3.4-2.5ubuntu3.4_amd64.deb ...
+Unpacking nfs-common (1:1.3.4-2.5ubuntu3.4) ...
+Selecting previously unselected package nfs-kernel-server.
+Preparing to unpack .../6-nfs-kernel-server_1%3a1.3.4-2.5ubuntu3.4_amd64.deb ...
+Unpacking nfs-kernel-server (1:1.3.4-2.5ubuntu3.4) ...
+Setting up libtirpc-common (1.2.5-1) ...
+Setting up keyutils (1.6-6ubuntu1) ...
+Setting up libnfsidmap2:amd64 (0.25-5.1ubuntu1) ...
+Setting up libtirpc3:amd64 (1.2.5-1) ...
+Setting up rpcbind (1.2.5-8) ...
+invoke-rc.d: could not determine current runlevel
+Created symlink /etc/systemd/system/multi-user.target.wants/rpcbind.service → /lib/systemd/system/rpcbind.service.
+Created symlink /etc/systemd/system/sockets.target.wants/rpcbind.socket → /lib/systemd/system/rpcbind.socket.
+Setting up nfs-common (1:1.3.4-2.5ubuntu3.4) ...
+
+Creating config file /etc/idmapd.conf with new version
+Adding system user `statd' (UID 113) ...
+Adding new user `statd' (UID 113) with group `nogroup' ...
+Not creating home directory `/var/lib/nfs'.
+System has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+Created symlink /etc/systemd/system/multi-user.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.
+Created symlink /etc/systemd/system/remote-fs.target.wants/nfs-client.target → /lib/systemd/system/nfs-client.target.
+invoke-rc.d: could not determine current runlevel
+Setting up nfs-kernel-server (1:1.3.4-2.5ubuntu3.4) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/nfs-server.service → /lib/systemd/system/nfs-server.service.
+
+Creating config file /etc/exports with new version
+
+Creating config file /etc/default/nfs-kernel-server with new version
+invoke-rc.d: could not determine current runlevel
+Processing triggers for systemd (245.4-4ubuntu3.11) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+ramyasri@DESKTOP-007FPGI:~$ echo $shell
+
+ramyasri@DESKTOP-007FPGI:~$ #!/bin/bash
+ramyasri@DESKTOP-007FPGI:~$ echo hello world
+hello world
+ramyasri@DESKTOP-007FPGI:~$ nano spcl.sh
+ramyasri@DESKTOP-007FPGI:~$ cat spcl.sh
+#!/bin/bash
+echo "Enter a pet animal"
+read animal
+if[ $animal = cat ]
+     then echo "i love cats"
+elif[ $animal = dog ]
+     then echo "i like $animal"
+elif[ $animal = cow ]
+     then echo "i love cow"
+     else echo "i can like any $animal"
+fi
+
+ramyasri@DESKTOP-007FPGI:~$ nano loop.sh
+ramyasri@DESKTOP-007FPGI:~$ cat loop.sh
+#!/bin/bash
+for((c=1;c<5;c++))
+do
+        echo "enter some no"
+        read no
+        echo "welcome $c time $no"
+done
+ramyasri@DESKTOP-007FPGI:~$ nano array
+ramyasri@DESKTOP-007FPGI:~$ nano array
+ramyasri@DESKTOP-007FPGI:~$ cat array
+.#!/bin/bash
+STATES_INDIA=("Andhra pradesh" "Tamilnadu" "Telangana" "Kerala")
+for states in "${STATES_INDIA[@]}"
+        do
+            echo"Southern Indian state $state"
+        done
+ramyasri@DESKTOP-007FPGI:~$ ssh-agent bash
+ramyasri@DESKTOP-007FPGI:~$ ssh-add~/.ssh/id_rsa
+bash: ssh-add~/.ssh/id_rsa: No such file or directory
+ramyasri@DESKTOP-007FPGI:~$
+ramyasri@DESKTOP-007FPGI:~$ anisible-galaxy -h
+
+Command 'anisible-galaxy' not found, did you mean:
+
+  command 'ansible-galaxy' from deb ansible (2.9.6+dfsg-1)
+
+Try: sudo apt install <deb name>
+
+ramyasri@DESKTOP-007FPGI:~$ ansible-galaxy
+usage: ansible-galaxy [-h] [--version] [-v] TYPE ...
+ansible-galaxy: error: the following arguments are required: TYPE
+
+usage: ansible-galaxy [-h] [--version] [-v] TYPE ...
+
+Perform various Role and Collection related operations.
+
+positional arguments:
+  TYPE
+    collection   Manage an Ansible Galaxy collection.
+    role         Manage an Ansible Galaxy role.
+
+optional arguments:
+  --version      show program's version number, config file location, configured module search path, module location, executable location and exit
+  -h, --help     show this help message and exit
+  -v, --verbose  verbose mode (-vvv for more, -vvvv to enable connection debugging)
+ ramyasri@DESKTOP-007FPGI:~$ ansible-galaxy init --force
+usage: ansible-galaxy role init [-h] [-s API_SERVER] [--token API_KEY] [-c] [-v] [-f] [--offline] [--init-path INIT_PATH] [--role-skeleton ROLE_SKELETON]
+                                [--type ROLE_TYPE]
+                                role_name
+ansible-galaxy role init: error: the following arguments are required: role_name
+
+usage: ansible-galaxy [-h] [--version] [-v] TYPE ...
+
+Perform various Role and Collection related operations.
+
+positional arguments:
+  TYPE
+    collection   Manage an Ansible Galaxy collection.
+    role         Manage an Ansible Galaxy role.
+
+optional arguments:
+  --version      show program's version number, config file location, configured module search path, module location, executable location and exit
+  -h, --help     show this help message and exit
+  -v, --verbose  verbose mode (-vvv for more, -vvvv to enable connection debugging)
+ ramyasri@DESKTOP-007FPGI:~$ ansible-galaxy init --force ramyasrirole
+- Role ramyasrirole was created successfully
+ramyasri@DESKTOP-007FPGI:~$ tree ramyasrirole
+ramyasrirole
+├── README.md
+├── defaults
+│   └── main.yml
+├── files
+├── handlers
+│   └── main.yml
+├── meta
+│   └── main.yml
+├── tasks
+│   └── main.yml
+├── templates
+├── tests
+│   ├── inventory
+│   └── test.yml
+└── vars
+    └── main.yml
+
+8 directories, 8 files
+ramyasri@DESKTOP-007FPGI:~$ ansible-galaxy init --force --offline ramyasrirole
+- Role ramyasrirole was created successfully
+ramyasri@DESKTOP-007FPGI:~$ cd \ramyasrirole
+ramyasri@DESKTOP-007FPGI:~/ramyasrirole$ ls
+README.md  defaults  files  handlers  meta  tasks  templates  tests  vars
+ramyasri@DESKTOP-007FPGI:~/ramyasrirole$ cd ..
+ramyasri@DESKTOP-007FPGI:~$ ls
+ABCimpex   Abcimplx        InitialZink     allperms.sh  decision.sh   file1        input.sh       ramya         sys        user1
+ABclmpex   Abclmpet        Zinginfor.txt   args.sh      def           file2        intialHashmum  ramya.file    temp       usr
+Abcd       Abclmpex        abcd            array        efgh          file3        loop.sh        ramyasrirole  tempramya  zing
+Abcdopex   Galaxyinfo.txt  add             bootcamp     emptyfile.sh  ifelse.sh    manu.txt       reading.sh    timjag     zinginfor.txt
+Abcimplex  Hashmum         allcontent.txt  bootcamp1    file          initialZing  nn_playbook    spcl.sh       user
+ramyasri@DESKTOP-007FPGI:~$ nano.yml
+nano.yml: command not found
+ramyasri@DESKTOP-007FPGI:~$ nano ramya.yml
+ramyasri@DESKTOP-007FPGI:~$ cat ramya.yml
+---
+student:
+        name: jhon
+        rollno: 25
+        section: B
+        location: Warangal
+ramyasri@DESKTOP-007FPGI:~$ nano sample.yml
+ramyasri@DESKTOP-007FPGI:~$ cat sample.yml
+---
+- hosts: tomcat-node
+roles:
+    - {role: install-tomcat}
+    - {role: start-tomcat}
